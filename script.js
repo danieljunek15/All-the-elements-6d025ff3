@@ -1,5 +1,7 @@
-const div1 = document.createElement('div');
-div1.classname = 'liststyle';
+var source = document.title;
+document.getElementById('text').innerHTML = source;
+var bob = document.getElementById('text');
+bob.classList.add('class');
 
-const div2 = document.createElement('div');
-div2.classname = 'divstyle';
+var list1 = document.getElementById('list1');
+list1.classList.add('liststyle');
